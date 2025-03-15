@@ -1,6 +1,7 @@
-const express = require('express')
+import express from 'express'
+import profesorController from '../controllers/profesoresController';
 const routerProfesor =express.Router();
-const profesorController = require('../controllers/profesoresController');
+
 
 routerProfesor.get('/', profesorController.consultar);
 routerProfesor.post('/', profesorController.ingresar);

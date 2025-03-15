@@ -62,4 +62,5 @@ class CursosController{
     }
 
 }
+
 export default new CursosController();
